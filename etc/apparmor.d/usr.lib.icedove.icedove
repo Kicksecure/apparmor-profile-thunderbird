@@ -1,0 +1,115 @@
+# Last Modified: Sat May 17 19:18:34 UTC 2014
+#include <tunables/global>
+
+/usr/lib/icedove/icedove {
+	#include <abstractions/base>
+	#include <abstractions/user-tmp>
+	#include <abstractions/bash>
+	#include <abstractions/fonts>
+	#include <abstractions/kde>
+	#include <abstractions/gnome>
+	#include <abstractions/audio>   
+	#include <abstractions/freedesktop.org>
+	#include <abstractions/user-download>
+
+	capability sys_ptrace,
+	  
+	deny / r,
+	deny /etc/host.conf r,
+	deny /etc/hosts r,
+	deny /etc/nsswitch.conf r,
+	deny /etc/passwd r,
+	deny /etc/fstab r,
+
+	deny /sys/devices/system/cpu/ r,  
+	deny /sys/devices/system/cpu/present r,  
+	deny /var/lib/dbus/machine-id r,
+
+	@{HOME}/.icedove/** mrwk,
+	@{HOME}/.kde/share/** rw,
+	@{HOME}/.config/** rw,		
+	@{HOME}/.fontconfig/ rwk, 
+	@{HOME}/.local/share/ r,
+	@{HOME}/.local/share/applications/* r,
+	@{HOME}/.local/share/mime/ r,
+	@{HOME}/.local/share/mime/** r,
+	@{HOME}/.cache/ r,
+	@{HOME}/.cache/** rwk,
+	@{HOME}/.gnupg/* lrwkcix,
+	@{HOME}/.Xauthority r,
+	
+	/etc/drirc r,
+	/etc/ld.so.cache r,
+	/etc/resolv.conf r,
+	/etc/mailcap r, 
+	/etc/icedove/pref/ r,
+	/etc/icedove/pref/* r,
+	/etc/X11/cursors/* r,
+	/etc/mime.types r,
+	/etc/gai.conf r,
+	/etc/xul-ext/enigmail.js rix,
+
+	/bin/ps rix,
+	/bin/dash  rix,
+	/bin/mknod rix,
+	/bin/grep rix,
+	/bin/chmod rix,
+	/bin/mktemp rix,
+	/bin/which rix,
+	  
+	/dev/tty rw,
+	/dev/vboxuser rw,
+	/dev/dri/card0 rw,
+		  
+	/lib/i386-linux-gnu/i686/cmov/libc-2.13.so r,
+	/lib/i386-linux-gnu/libprocps.so.0.0.1 r,
+	 
+	@{PROC}/ r,
+	@{PROC}/[0-9]*/maps r,
+	@{PROC}/tty/drivers r,
+	@{PROC}/[0-9]*/stat r,
+	@{PROC}/[0-9]*/status r,
+	@{PROC}/[0-9]*/task/*/stat r,
+	@{PROC}/[0-9]*/cmdline r,
+	@{PROC}/[0-9]*/fd/ r,
+	@{PROC}/cpuinfo r,
+	@{PROC}/filesystems r,
+	@{PROC}/meminfo r,
+	@{PROC}/stat r,
+	@{PROC}/sys/kernel/pid_max r,
+	@{PROC}/uptime r,
+	@{PROC}/[0-9]*/mounts r,
+	@{PROC}/[0-9]*/mountinfo r,
+	  
+	  
+	/usr/bin/kde4-config rix,
+	/usr/bin/basename rix,
+	/usr/bin/grep rix,
+	/usr/bin/uwt rix,
+	/usr/bin/torsocks rix,
+	/usr/bin/gpg2 rix,
+	/usr/bin/mkdir rix,
+	/usr/bin/update-desktop-database rix,
+
+	/usr/lib/i386-linux-gnu/** rm,
+	/usr/lib/icedove/icedove mrix,
+	/usr/lib/gnupg/* rix,
+
+	/usr/share/ r,
+	/usr/share/mime/ r,
+	/usr/share/mime/** r,
+	/usr/share/themes/ r,
+	/usr/share/themes/** r,
+	/usr/share/icedove/ r,
+	/usr/share/icedove/** r,
+	/usr/share/glib-2.0/schemas/gschemas.compiled r, 
+	/usr/share/hunspell/ r,
+	/usr/share/hunspell/* r,
+	/usr/.local/share/applications/ rwk,
+	/usr/share/applications/ r,		
+	/usr/share/applications/** rwk,
+	/usr/share/fontconfig/conf.avail/* r,
+	/usr/share/poppler/cMap/ r,
+	/usr/share/poppler/cMap/** r,
+}
+
