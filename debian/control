@@ -6,7 +6,7 @@ Source: apparmor-profile-icedove
 Section: misc
 Priority: optional
 Maintainer: Patrick Schleizer <adrelanos@riseup.net>
-Build-Depends: debhelper (>= 8), dh-apparmor, faketime, rsync, git
+Build-Depends: debhelper (>= 8), dh-apparmor, faketime, git
 Homepage: https://www.whonix.org/wiki/AppArmor
 Vcs-Browser: https://github.com/Whonix/apparmor-profile-icedove
 Vcs-Git: https://github.com/Whonix/apparmor-profile-icedove.git
@@ -16,6 +16,5 @@ Package: apparmor-profile-icedove
 Architecture: all
 Depends: ${misc:Depends}, apparmor
 Description: AppArmor profile for Icedove (Thunderbird for Debian) with Enigmail.
- .
  An AppArmor profile to confine Icedove (Thunderbird for Debian) with Enigmail. This profile
  is developed by the Whonix team. Thunderbird is developed by mozilla.org.
