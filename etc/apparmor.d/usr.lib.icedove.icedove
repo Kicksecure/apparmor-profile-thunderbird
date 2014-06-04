@@ -25,6 +25,12 @@
 	deny /sys/devices/system/cpu/present r,  
 	deny /var/lib/dbus/machine-id r,
 
+	## Required to choose application for "Open link in browser" ##
+	## for the first time. Not necessary afterwards ###############
+	@{HOME}/ r,
+	@{HOME}/** r,
+	###############################################################
+
 	@{HOME}/.icedove/** mrwk,
 	@{HOME}/.kde/share/** rw,
 	@{HOME}/.config/** rw,		
@@ -38,6 +44,7 @@
 	@{HOME}/.cache/** rwk,
 	@{HOME}/.gnupg/* lrwkcix,
 	@{HOME}/.Xauthority r,
+	@{HOME}/tor-browser_*/Browser/firefox Px,
 	
 	/etc/drirc r,
 	/etc/ld.so.cache r,
