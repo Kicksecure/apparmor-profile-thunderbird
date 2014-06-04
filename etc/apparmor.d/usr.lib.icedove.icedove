@@ -8,12 +8,12 @@
 	#include <abstractions/fonts>
 	#include <abstractions/kde>
 	#include <abstractions/gnome>
-	#include <abstractions/audio>
+	#include <abstractions/audio>   
 	#include <abstractions/freedesktop.org>
 	#include <abstractions/user-download>
 
 	capability sys_ptrace,
-
+	  
 	deny / r,
 	deny /etc/host.conf r,
 	deny /etc/hosts r,
@@ -21,33 +21,42 @@
 	deny /etc/passwd r,
 	deny /etc/fstab r,
 
-	deny /sys/devices/system/cpu/ r,
-	deny /sys/devices/system/cpu/present r,
+	deny /sys/devices/system/cpu/ r,  
+	deny /sys/devices/system/cpu/present r,  
 	deny /var/lib/dbus/machine-id r,
+
+	## Required to choose application for "Open link in browser" ##
+	## for the first time. Not necessary afterwards ###############
+	@{HOME}/ r,
+	@{HOME}/** r,
+	###############################################################
 
 	@{HOME}/.icedove/** mrwk,
 	@{HOME}/.kde/share/** rw,
-	@{HOME}/.config/** rw,
-	@{HOME}/.fontconfig/ rwk,
+	@{HOME}/.config/** rw,		
+	@{HOME}/.fontconfig/ rwk, 
 	@{HOME}/.local/share/ r,
-	@{HOME}/.local/share/applications/* r,
-	@{HOME}/.local/share/mime/ r,
-	@{HOME}/.local/share/mime/** r,
+	@{HOME}/.local/share/applications/ rwk,
+	@{HOME}/.local/share/applications/* rwk,
+	@{HOME}/.local/share/mime/ rwk,
+	@{HOME}/.local/share/mime/** rwk,
 	@{HOME}/.cache/ r,
 	@{HOME}/.cache/** rwk,
 	@{HOME}/.gnupg/* lrwkcix,
 	@{HOME}/.Xauthority r,
-
+	@{HOME}/tor-browser_*/Browser/firefox Px,
+	
 	/etc/drirc r,
 	/etc/ld.so.cache r,
 	/etc/resolv.conf r,
-	/etc/mailcap r,
+	/etc/mailcap r, 
 	/etc/icedove/pref/ r,
 	/etc/icedove/pref/* r,
 	/etc/X11/cursors/* r,
 	/etc/mime.types r,
 	/etc/gai.conf r,
 	/etc/xul-ext/enigmail.js rix,
+	/etc/pkcs11/modules/ r,
 
 	/bin/ps rix,
 	/bin/dash  rix,
@@ -56,14 +65,14 @@
 	/bin/chmod rix,
 	/bin/mktemp rix,
 	/bin/which rix,
-
+	  
 	/dev/tty rw,
 	/dev/vboxuser rw,
 	/dev/dri/card0 rw,
-
+		  
 	/lib/i386-linux-gnu/i686/cmov/libc-2.13.so r,
 	/lib/i386-linux-gnu/libprocps.so.0.0.1 r,
-
+	 
 	@{PROC}/ r,
 	@{PROC}/[0-9]*/maps r,
 	@{PROC}/tty/drivers r,
@@ -80,8 +89,8 @@
 	@{PROC}/uptime r,
 	@{PROC}/[0-9]*/mounts r,
 	@{PROC}/[0-9]*/mountinfo r,
-
-
+	  
+	  
 	/usr/bin/kde4-config rix,
 	/usr/bin/basename rix,
 	/usr/bin/grep rix,
@@ -102,13 +111,14 @@
 	/usr/share/themes/** r,
 	/usr/share/icedove/ r,
 	/usr/share/icedove/** r,
-	/usr/share/glib-2.0/schemas/gschemas.compiled r,
+	/usr/share/glib-2.0/schemas/gschemas.compiled r, 
 	/usr/share/hunspell/ r,
 	/usr/share/hunspell/* r,
 	/usr/.local/share/applications/ rwk,
-	/usr/share/applications/ r,
+	/usr/share/applications/ r,		
 	/usr/share/applications/** rwk,
 	/usr/share/fontconfig/conf.avail/* r,
 	/usr/share/poppler/cMap/ r,
 	/usr/share/poppler/cMap/** r,
 }
+
