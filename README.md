@@ -1,7 +1,8 @@
 # AppArmor profile for Icedove (Thunderbird for Debian) with Enigmail #
 
-An AppArmor profile to confine Icedove (Thunderbird for Debian) with Enigmail. This profile
-is developed by the Whonix team. Thunderbird is developed by mozilla.org.
+An AppArmor profile to confine Icedove (Thunderbird for Debian) with Enigmail.
+This profile is developed by the Whonix team. Thunderbird is developed by
+mozilla.org.
 
 (This package description has been [automatically](https://github.com/Whonix/whonix-developer-meta-files/blob/master/debug-steps/packaging-helper-script) extracted and mirrored from `debian/control`.)
 
