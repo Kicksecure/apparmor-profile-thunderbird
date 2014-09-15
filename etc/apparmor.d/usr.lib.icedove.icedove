@@ -31,7 +31,9 @@
 	@{HOME}/** r,
 	###############################################################
 	
+	@{HOME}/.mozilla/ rwk,
 	@{HOME}/.mozilla/** rwk,
+	@{HOME}/.icedove/ rwk,
 	@{HOME}/.icedove/** mrwk,
 	@{HOME}/.kde/share/** rw,
 	@{HOME}/.config/** rw,
@@ -60,6 +62,7 @@
 	/etc/pkcs11/modules/ r,
 
 	/bin/ps rix,
+	/bin/bash rix,
 	/bin/dash  rix,
 	/bin/mknod rix,
 	/bin/grep rix,
