@@ -101,6 +101,7 @@
 	/usr/bin/torsocks rix,
 	/usr/bin/gpg2 rix,
 	/usr/bin/gpg-agent rix,
+	/usr/bin/gpg-connect-agent rix,
 	/usr/bin/pinentry* rix,
 	/usr/bin/mkdir rix,
 	/usr/bin/update-desktop-database rix,
@@ -125,4 +126,5 @@
 	/usr/share/fontconfig/conf.avail/* r,
 	/usr/share/poppler/cMap/ r,
 	/usr/share/poppler/cMap/** r,
+	/usr/share/icons/** r,
 }
