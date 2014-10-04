@@ -1,3 +1,9 @@
+apparmor-profile-icedove (3:0.5-1) unstable; urgency=low
+
+  * New upstream version.
+
+ -- Patrick Schleizer <adrelanos@riseup.net>  Sat, 04 Oct 2014 16:36:08 +0000
+
 apparmor-profile-icedove (3:0.4-1) unstable; urgency=low
 
   * New upstream version.

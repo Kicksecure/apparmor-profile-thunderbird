@@ -30,7 +30,7 @@
 	@{HOME}/ r,
 	@{HOME}/** r,
 	###############################################################
-	
+
 	@{HOME}/.mozilla/ rwk,
 	@{HOME}/.mozilla/** rwk,
 	@{HOME}/.icedove/ rwk,
@@ -100,6 +100,8 @@
 	/usr/bin/uwt rix,
 	/usr/bin/torsocks rix,
 	/usr/bin/gpg2 rix,
+	/usr/bin/gpg-agent rix,
+	/usr/bin/pinentry* rix,
 	/usr/bin/mkdir rix,
 	/usr/bin/update-desktop-database rix,
 
