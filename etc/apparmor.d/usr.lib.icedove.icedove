@@ -102,6 +102,7 @@
 	/usr/bin/gpg2 rix,
 	/usr/bin/gpg-agent rix,
 	/usr/bin/gpg-connect-agent rix,
+	/usr/bin/gpgconf rix,
 	/usr/bin/pinentry* rix,
 	/usr/bin/mkdir rix,
 	/usr/bin/update-desktop-database rix,
