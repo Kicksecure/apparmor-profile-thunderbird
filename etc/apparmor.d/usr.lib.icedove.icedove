@@ -60,6 +60,8 @@
 	/etc/gai.conf r,
 	/etc/xul-ext/enigmail.js rix,
 	/etc/pkcs11/modules/ r,
+	/etc/dpkg/dpkg.cfg.d/ r,
+	/etc/dpkg/dpkg.cfg r,
 
 	/bin/ps rix,
 	/bin/bash rix,
@@ -106,6 +108,8 @@
 	/usr/bin/pinentry* rix,
 	/usr/bin/mkdir rix,
 	/usr/bin/update-desktop-database rix,
+	/usr/bin/dpkg rix,
+	/usr/bin/dpkg-query rix,
 
 	/usr/lib/i386-linux-gnu/** rm,
 	/usr/lib/icedove/icedove mrix,
@@ -128,4 +132,8 @@
 	/usr/share/poppler/cMap/ r,
 	/usr/share/poppler/cMap/** r,
 	/usr/share/icons/** r,
+
+	/var/lib/dpkg/status r,
+	/var/lib/dpkg/updates/ r,
+	/var/lib/dpkg/triggers/File r,
 }
