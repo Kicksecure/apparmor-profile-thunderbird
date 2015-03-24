@@ -1,3 +1,28 @@
+commit 13a9a5dfd28cfd6ee88c0a7c82f924f8bedf7b7e
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Mar 24 17:26:25 2015 +0000
+
+    updated makefile generic to version 1.4
+
+commit e00dca2c39f33abc0728d6c6f2c32432ddd4a221
+Merge: 5e27304 bb9bf78
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Feb 26 21:24:14 2015 +0000
+
+    Merge remote-tracking branch 'troubadoour/master'
+
+commit bb9bf7818c8430b62ead41edde717dc0405fa06a
+Author: troubadoour <trobador@riseup.net>
+Date:   Thu Feb 26 20:23:26 2015 +0000
+
+    new messages when impporting signature (enigmail)
+
+commit 5e27304c4c0d02ce6e315b751f4033e0834e7571
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Feb 4 00:56:08 2015 +0000
+
+    bumped changelog version
+
 commit 3d5913c62db68dde1f15d1f34caf994a12ce7988
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Wed Feb 4 00:44:44 2015 +0000

@@ -1,3 +1,9 @@
+apparmor-profile-icedove (3:1.1-1) unstable; urgency=low
+
+  * New upstream version (local package).
+
+ -- Patrick Schleizer <adrelanos@riseup.net>  Tue, 24 Mar 2015 17:28:59 +0000
+
 apparmor-profile-icedove (3:1.0-1) unstable; urgency=low
 
   * New upstream version.
