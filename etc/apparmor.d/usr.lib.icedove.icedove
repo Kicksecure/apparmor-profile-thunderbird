@@ -62,6 +62,7 @@
 	/etc/pkcs11/modules/ r,
 	/etc/dpkg/dpkg.cfg.d/ r,
 	/etc/dpkg/dpkg.cfg r,
+	/etc/udev/udev.conf r,
 
 	/bin/ps rix,
 	/bin/bash rix,
@@ -95,6 +96,12 @@
 	@{PROC}/uptime r,
 	@{PROC}/[0-9]*/mounts r,
 	@{PROC}/[0-9]*/mountinfo r,
+	
+	/run/user/1000/dconf/ rwk,
+	/run/user/1000/dconf/user rwk,
+	/run/udev/data/* r,
+	
+	/sys/devices/pci0000:00/0000:00:02.0/uevent r,
 
 	/usr/bin/kde4-config rix,
 	/usr/bin/basename rix,
@@ -132,6 +139,7 @@
 	/usr/share/poppler/cMap/ r,
 	/usr/share/poppler/cMap/** r,
 	/usr/share/icons/** r,
+	/usr/share/mozilla/extensions/** r,
 
 	/var/lib/dpkg/status r,
 	/var/lib/dpkg/updates/ r,
