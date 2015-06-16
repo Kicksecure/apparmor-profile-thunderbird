@@ -1,3 +1,22 @@
+commit 4b8f47eb013184454d22899c5760c44953a90c96
+Merge: ee126ac e77c90e
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Jun 16 19:20:00 2015 +0000
+
+    Merge remote-tracking branch 'troubadoour/master'
+
+commit e77c90ed151d184dce13ee0fafa240ccd908ae11
+Author: troubadoour <trobador@riseup.net>
+Date:   Tue Jun 16 18:22:47 2015 +0000
+
+    + /usr/lib/gnupg2/gpg2keys_hkp
+
+commit ee126ac592f5071b2ed0ba50e010bccece5dfc56
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Jun 11 22:20:41 2015 +0000
+
+    bumped changelog version
+
 commit 6474456f3d7f12ad25957fd373300643cf345e18
 Merge: c4e639f 725beb0
 Author: Patrick Schleizer <adrelanos@riseup.net>
