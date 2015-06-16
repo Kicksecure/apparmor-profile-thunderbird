@@ -96,12 +96,14 @@
 	@{PROC}/uptime r,
 	@{PROC}/[0-9]*/mounts r,
 	@{PROC}/[0-9]*/mountinfo r,
-	
+
 	/run/user/1000/dconf/ rwk,
 	/run/user/1000/dconf/user rwk,
 	/run/udev/data/* r,
-	
+
 	/sys/devices/pci0000:00/0000:00:02.0/uevent r,
+
+	/usr/lib/gnupg2/gpg2keys_hkp rix,
 
 	/usr/bin/kde4-config rix,
 	/usr/bin/basename rix,
