@@ -143,6 +143,7 @@
 	/usr/share/icons/** r,
 	/usr/share/mozilla/extensions/** r,
 	/usr/share/xul-ext/torbirdy/ r,
+	/usr/share/xul-ext/torbirdy/** r,
 
 	/var/lib/dpkg/status r,
 	/var/lib/dpkg/updates/ r,
