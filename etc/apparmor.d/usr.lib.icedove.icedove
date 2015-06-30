@@ -119,6 +119,7 @@
 	/usr/bin/update-desktop-database rix,
 	/usr/bin/dpkg rix,
 	/usr/bin/dpkg-query rix,
+	/usr/bin/torbrowser Px,
 
 	/usr/lib/i386-linux-gnu/** rm,
 	/usr/lib/icedove/icedove mrix,
