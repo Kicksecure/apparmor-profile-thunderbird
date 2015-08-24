@@ -76,8 +76,8 @@
 	/dev/vboxuser rw,
 	/dev/dri/card0 rw,
 
-	/lib/i386-linux-gnu/i686/cmov/libc-2.13.so r,
-	/lib/i386-linux-gnu/libprocps.so.0.0.1 r,
+	/lib/*-linux-gnu/i686/cmov/libc-2.13.so r,
+	/lib/*-linux-gnu/libprocps.so.0.0.1 r,
 
 	@{PROC}/ r,
 	@{PROC}/[0-9]*/maps r,
@@ -120,7 +120,7 @@
 	/usr/bin/dpkg-query rix,
 	/usr/bin/torbrowser Px,
 
-	/usr/lib/i386-linux-gnu/** rm,
+	/usr/lib/*-linux-gnu/** rm,
 	/usr/lib/icedove/icedove mrix,
 	/usr/lib/gnupg/* rix,
 
@@ -144,6 +144,8 @@
 	/usr/share/mozilla/extensions/** r,
 	/usr/share/xul-ext/torbirdy/ r,
 	/usr/share/xul-ext/torbirdy/** r,
+	/usr/share/xul-ext/adblock-plus/ r,
+	/usr/share/xul-ext/adblock-plus/** r,
 
 	/var/lib/dpkg/status r,
 	/var/lib/dpkg/updates/ r,
