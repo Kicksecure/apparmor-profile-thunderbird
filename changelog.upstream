@@ -1,3 +1,60 @@
+commit 629df0d656641cc60c14e807dd17ebf4db1a9495
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Aug 24 15:31:25 2015 +0000
+
+    amd64 / jessie / Qubes specific fixes
+
+commit fc5b2bf9be99264f13f5f751dfdd72ac9c90d30e
+Merge: b767235 86ff02a
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Jul 25 01:28:47 2015 +0200
+
+    Merge remote-tracking branch 'troubadoour/master'
+
+commit 86ff02a2f73428763545a5e5a4d970c2828759aa
+Author: troubadoour <trobador@riseup.net>
+Date:   Mon Jul 13 15:01:48 2015 +0000
+
+    - start-tor-browser
+
+commit b767235bd72f8ca9ff185579b8e113e9c7f45e59
+Merge: b4b5d10 be4bafb
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Jun 30 13:38:07 2015 +0000
+
+    Merge remote-tracking branch 'troubadoour/master'
+
+commit be4bafb30fda136266a77a80ee1d424ebe30ea20
+Author: troubadoour <trobador@riseup.net>
+Date:   Mon Jun 29 16:28:52 2015 +0000
+
+    /usr/bin/torbrowser Px, for opening links in TBB.
+
+commit b4b5d10a1f9cf987ae5308cc580266c8959cdef2
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Jun 28 21:34:07 2015 +0000
+
+    	/usr/share/xul-ext/torbirdy/** r,
+
+commit 12ef0850e0aa8ca3d2d3ef76e357e69976630ba0
+Merge: 68a92bb 91263dc
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Jun 28 20:02:33 2015 +0000
+
+    Merge remote-tracking branch 'troubadoour/master'
+
+commit 91263dc1a7ea42ced53c96dddabdaca512ccf2fd
+Author: troubadoour <trobador@riseup.net>
+Date:   Sat Jun 27 21:15:14 2015 +0000
+
+    + /usr/share/xul-ext/torbirdy/ r,
+
+commit 68a92bbd0856bcc7a09d12d7386ec357fc06a8f1
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Jun 16 19:20:24 2015 +0000
+
+    bumped changelog version
+
 commit 4b8f47eb013184454d22899c5760c44953a90c96
 Merge: ee126ac e77c90e
 Author: Patrick Schleizer <adrelanos@riseup.net>
