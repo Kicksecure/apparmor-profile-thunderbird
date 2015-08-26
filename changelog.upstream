@@ -1,3 +1,15 @@
+commit 327e4962d953b600a08829249fcd6173bd3a50a2
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Aug 26 22:24:34 2015 +0000
+
+    qubes-gpg-split, qubes-thunderbird and Whonix 12 related fixes
+
+commit efdfcc2898fac7d9b7867097e542362cba40a2e8
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Aug 25 14:07:50 2015 +0000
+
+    bumped changelog version
+
 commit bae89bb0cad248b9ddacab1eb64d48432615ded9
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Mon Aug 24 17:47:15 2015 +0000
