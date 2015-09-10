@@ -35,8 +35,13 @@
 	@{HOME}/.mozilla/** rwk,
 	@{HOME}/.icedove/ rwk,
 	@{HOME}/.icedove/** mrwk,
+	owner @{HOME}/.cache/icedove/*/ rw,
+	@{HOME}/.thunderbird/ rwk,
+	@{HOME}/.thunderbird/** mrwk,
 	@{HOME}/.kde/share/** rw,
-	@{HOME}/.config/** rw,
+
+	@{HOME}/.config/oxygen-gtk/** rw,
+
 	@{HOME}/.fontconfig/ rwk,
 	@{HOME}/.local/share/ r,
 	@{HOME}/.local/share/applications/ rwk,
@@ -51,6 +56,7 @@
 	/etc/drirc r,
 	/etc/ld.so.cache r,
 	/etc/resolv.conf r,
+	/run/resolvconf/resolv.conf r,
 	/etc/mailcap r,
 	/etc/icedove/pref/ r,
 	/etc/icedove/pref/* r,
@@ -75,7 +81,10 @@
 	/bin/which rix,
 
 	/dev/tty rw,
-	/dev/vboxuser rw,
+
+	## Why is this needed?
+	# /dev/vboxuser rw,
+
 	/dev/dri/card0 rw,
 
 	/lib/*-linux-gnu/i686/cmov/libc-2.13.so r,
@@ -123,6 +132,15 @@
 	/usr/bin/dpkg-query rix,
 	/usr/bin/torbrowser Px,
 
+
+	## Unneeded on normal Debian Jessie System (untested on Qubes OS).
+	# /sys/devices/pci0000:00/0000:00:02.0/uevent r,
+
+	## Allow to open links via iceweasel.
+	## This requires iceweasel to be already running since the process forked
+	## by icedove runs with the same profile as icedove.
+	/usr/lib/iceweasel/iceweasel rix,
+
 	/usr/lib/*-linux-gnu/** rm,
 	/usr/lib/icedove/icedove mrix,
 	/usr/lib/gnupg/* rix,
@@ -134,10 +152,14 @@
 	/usr/share/themes/** r,
 	/usr/share/icedove/ r,
 	/usr/share/icedove/** r,
+	/usr/share/gnome/**/ r,
 	/usr/share/glib-2.0/schemas/gschemas.compiled r,
 	/usr/share/hunspell/ r,
 	/usr/share/hunspell/* r,
-	/usr/.local/share/applications/ rwk,
+
+	## FIXME(ypid): Probably not needed?
+	# /usr/local/share/applications/ rwk,
+
 	/usr/share/applications/ r,
 	/usr/share/applications/** rwk,
 	/usr/share/fontconfig/conf.avail/* r,
