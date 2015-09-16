@@ -27,8 +27,8 @@
 
 	## Required to choose application for "Open link in browser" ##
 	## for the first time. Not necessary afterwards ###############
-	@{HOME}/ r,
-	@{HOME}/** r,
+	#@{HOME}/ r,
+	#@{HOME}/** r,
 	###############################################################
 
 	@{HOME}/.mozilla/ rwk,
@@ -36,7 +36,7 @@
 	@{HOME}/.icedove/ rwk,
 	@{HOME}/.icedove/** mrwk,
 	@{HOME}/.kde/share/** rw,
-	@{HOME}/.config/** rw,
+	@{HOME}/.config/oxygen-gtk/* rw,
 	@{HOME}/.fontconfig/ rwk,
 	@{HOME}/.local/share/ r,
 	@{HOME}/.local/share/applications/ rwk,
@@ -44,8 +44,8 @@
 	@{HOME}/.local/share/mime/ rwk,
 	@{HOME}/.local/share/mime/** rwk,
 	@{HOME}/.cache/ r,
-	@{HOME}/.cache/** rwk,
-	@{HOME}/.gnupg/* lrwkcix,
+	@{HOME}/.cache/icedove/** rwk,
+	@{HOME}/.gnupg/* rwk,
 	@{HOME}/.Xauthority r,
 
 	/etc/drirc r,
