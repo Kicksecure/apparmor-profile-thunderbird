@@ -30,6 +30,7 @@
 	@{HOME}/.icedove/ rwk,
 	@{HOME}/.icedove/** mrwk,
 	@{HOME}/.config/oxygen-gtk/* rw,
+	@{HOME}/.cache/icedove/ rwk,
 	@{HOME}/.cache/icedove/*/ rw,
 	@{HOME}/.thunderbird/ rwk,
 	@{HOME}/.thunderbird/** mrwk,
