@@ -21,6 +21,9 @@
 	deny /etc/passwd r,
 	deny /etc/fstab r,
 
+    # Pops a denied message in VirtualBox.
+    deny /dev/vboxuser rw,
+
 	deny /sys/devices/system/cpu/ r,
 	deny /sys/devices/system/cpu/present r,
 	deny /var/lib/dbus/machine-id r,
@@ -78,9 +81,6 @@
 	/bin/which rix,
 
 	/dev/tty rw,
-
-	## Why is this needed?
-	# /dev/vboxuser rw,
 
 	/dev/dri/card0 rw,
 
