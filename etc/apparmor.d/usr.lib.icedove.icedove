@@ -20,6 +20,7 @@
 	deny /etc/nsswitch.conf r,
 	deny /etc/passwd r,
 	deny /etc/fstab r,
+	deny /etc/machine-id r,
 
     # Pops a denied message in VirtualBox.
     deny /dev/vboxuser rw,
