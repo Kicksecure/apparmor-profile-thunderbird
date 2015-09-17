@@ -29,6 +29,7 @@
 	@{HOME}/.mozilla/** rwk,
 	@{HOME}/.icedove/ rwk,
 	@{HOME}/.icedove/** mrwk,
+	@{HOME}/.config/oxygen-gtk/* rw,
 	owner @{HOME}/.cache/icedove/*/ rw,
 	@{HOME}/.thunderbird/ rwk,
 	@{HOME}/.thunderbird/** mrwk,
