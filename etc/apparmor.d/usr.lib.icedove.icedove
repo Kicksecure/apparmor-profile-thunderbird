@@ -82,7 +82,12 @@
 
 	/dev/tty rw,
 
-	## Why is this needed?
+	## @troubadoour https://github.com/Whonix/apparmor-profile-icedove/pull/1#issuecomment-140900430
+	## > /dev/vboxuser is required only when Icedove is run in VirtualBox.
+	## > Removing the line is not fatal, it only pops a denied message. This line
+	## > will not prevent the profile from working in a host environment, or in
+	## > KVM and Qubes.
+	## So we don’t allow access.
 	# /dev/vboxuser rw,
 
 	/dev/dri/card0 rw,
