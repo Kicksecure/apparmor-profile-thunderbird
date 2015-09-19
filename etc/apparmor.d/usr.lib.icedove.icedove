@@ -40,9 +40,6 @@
 	@{HOME}/.thunderbird/** mrwk,
 	@{HOME}/.kde/share/** rw,
 
-	## Only allow access to specific configuration as needed.
-	# @{HOME}/.config/** rw,
-
 	@{HOME}/.fontconfig/ rwk,
 	@{HOME}/.local/share/ r,
 	@{HOME}/.local/share/applications/ rwk,
