@@ -54,7 +54,6 @@
 	/etc/drirc r,
 	/etc/ld.so.cache r,
 	/etc/resolv.conf r,
-	/run/resolvconf/resolv.conf r,
 	/etc/mailcap r,
 	/etc/icedove/pref/ r,
 	/etc/icedove/pref/* r,
@@ -105,6 +104,7 @@
 	/run/user/1000/dconf/ rwk,
 	/run/user/1000/dconf/user rwk,
 	/run/udev/data/* r,
+    /run/resolvconf/resolv.conf r,
 
 	/sys/devices/pci0000:00/0000:00:02.0/uevent r,
 
