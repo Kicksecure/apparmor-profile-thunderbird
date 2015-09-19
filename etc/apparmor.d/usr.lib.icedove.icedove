@@ -81,7 +81,7 @@
 
     /dev/dri/card0 rw,
 
-    /lib/*-linux-gnu/i686/cmov/libc-2.13.so r,
+    /lib/*-linux-gnu/*/cmov/libc-2.13.so r,
     /lib/*-linux-gnu/libprocps.so.0.0.1 r,
 
     @{PROC}/ r,
