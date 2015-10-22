@@ -1,3 +1,125 @@
+commit 8c12286bef0f1b5dcd508550f51b51893e825d80
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Sep 19 17:14:42 2015 +0000
+
+    replace i686 with wildcard *
+
+commit 7987e4cbd188fcdf984f7df62e75fbcd441f3f6d
+Merge: ce768f7 595e179
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Sep 19 17:11:34 2015 +0000
+
+    Merge remote-tracking branch 'troubadoour/master'
+
+commit 595e17977ecd0220f691b6fc61920b5c47e63803
+Author: troubadoour <trobador@riseup.net>
+Date:   Sat Sep 19 15:43:47 2015 +0000
+
+    replace tabs with spaces
+
+commit f0efed06208be37926c0387bace9a4016a546414
+Author: troubadoour <trobador@riseup.net>
+Date:   Sat Sep 19 15:40:14 2015 +0000
+
+    move 	/run/resolvconf/resolv.conf r,
+
+commit 7f8b58b4dd97c95ce4c15efe05f829805f8f95ca
+Author: troubadoour <trobador@riseup.net>
+Date:   Sat Sep 19 15:37:38 2015 +0000
+
+    remove double entry @{HOME}/.config/oxygen-gtk/* rw,
+
+commit 069359e467057dd87c693a840666d65947118a5e
+Merge: dd5d1b4 ce768f7
+Author: troubadoour <trobador@riseup.net>
+Date:   Sat Sep 19 15:23:47 2015 +0000
+
+    Merge remote-tracking branch 'whonix/master'
+
+commit dd5d1b4e73141b6cc8c1e137e91f122b821eb30b
+Merge: fa0847a 9503ed7
+Author: troubadoour <trobador@riseup.net>
+Date:   Sat Sep 19 15:16:22 2015 +0000
+
+    Merge remote-tracking branch 'origin/fixed_for_normal_debian_jessie'
+
+commit fa0847add30a927915e0a5289bbebaa627bbe2ec
+Author: troubadoour <trobador@riseup.net>
+Date:   Sat Sep 19 15:12:47 2015 +0000
+
+    Revert "updated after diecussion in https://github.com/Whonix/apparmor-profile-icedove/pull/1"
+    to resolve merge conflicts
+    This reverts commit 8a8c1efea28faa58722394fb39235760c20ff59c.
+
+commit 9503ed725596069d1f7c712bb351378157b013a7
+Author: troubadoour <trobador@riseup.net>
+Date:   Thu Sep 17 18:27:50 2015 +0000
+
+    add "deny /etc/machine-id r," required in jessie normal environment
+
+commit a47f0e6805bb028a00b643c455378d7536d27ba9
+Author: troubadoour <trobador@riseup.net>
+Date:   Thu Sep 17 18:24:32 2015 +0000
+
+    add "deny /dev/vboxuser rw," neceesary in VirtuakBox, harmless in other environments
+
+commit 8a35da14a89bdba4e03a5a222202cbbf09cbc891
+Author: troubadoour <trobador@riseup.net>
+Date:   Thu Sep 17 18:20:00 2015 +0000
+
+    "@{HOME}/.cache/icedove/*/ rw," <-> "@{HOME}/.cache/icedove/** rw,"
+
+commit 7a594598754bcf4f7b1851dc9df8477e6df35694
+Author: troubadoour <trobador@riseup.net>
+Date:   Thu Sep 17 18:17:56 2015 +0000
+
+    add "@{HOME}/.cache/icedove/ rwk,", required when Icedoce is tun for the first time
+
+commit 824fb677cecd6812665e4b0b21e18f2bea879b83
+Author: troubadoour <trobador@riseup.net>
+Date:   Thu Sep 17 18:15:42 2015 +0000
+
+    remove owner
+
+commit e326d70a95eb16d33f189c79d4bd73071ef9920b
+Author: troubadoour <trobador@riseup.net>
+Date:   Thu Sep 17 18:14:11 2015 +0000
+
+    add "@{HOME}/.config/oxygen-gtk/* rw," for KDE (Whonix)
+
+commit 668297eb4b0c4519708a83d253f4d410e69909ee
+Author: troubadoour <trobador@riseup.net>
+Date:   Thu Sep 17 18:09:28 2015 +0000
+
+    remove "@{HOME/ r,", "@{HOME}/** r,". Not required any longer.
+
+commit ce768f737d2723affabdfe3536910400857d7806
+Merge: 7a62b46 8a8c1ef
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Sep 16 23:59:53 2015 +0000
+
+    Merge remote-tracking branch 'troubadoour/master'
+
+commit 8a8c1efea28faa58722394fb39235760c20ff59c
+Author: troubadoour <trobador@riseup.net>
+Date:   Wed Sep 16 20:58:25 2015 +0000
+
+    updated after diecussion in https://github.com/Whonix/apparmor-profile-icedove/pull/1
+
+commit 0c2c12cfa8beed7c76d352635e9e145c703608ef
+Author: Robin Schneider <ypid@riseup.net>
+Date:   Tue Sep 8 11:38:47 2015 +0200
+
+    Reviewed and adopted for "normal" Debian Jessie installation.
+    
+    * Untested on Qubes OS.
+
+commit 7a62b46ab8a57f3da420b15e218926fbc43cf3f8
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Aug 26 23:31:54 2015 +0000
+
+    bumped changelog version
+
 commit 327e4962d953b600a08829249fcd6173bd3a50a2
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Wed Aug 26 22:24:34 2015 +0000
