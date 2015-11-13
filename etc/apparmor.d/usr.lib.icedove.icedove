@@ -126,6 +126,7 @@
     /usr/bin/dpkg rix,
     /usr/bin/dpkg-query rix,
     /usr/bin/torbrowser Px,
+    /usr/bin/qubesdb-cmd rix,
 
 
     ## Unneeded on normal Debian Jessie System (untested on Qubes OS).
