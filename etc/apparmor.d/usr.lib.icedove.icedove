@@ -152,6 +152,7 @@
     /usr/share/glib-2.0/schemas/gschemas.compiled r,
     /usr/share/hunspell/ r,
     /usr/share/hunspell/* r,
+    /usr/share/iceowl-extension/** r,
 
     ## FIXME(ypid): Probably not needed?
     # /usr/local/share/applications/ rwk,
