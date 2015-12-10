@@ -125,7 +125,7 @@
     /usr/bin/update-desktop-database rix,
     /usr/bin/dpkg rix,
     /usr/bin/dpkg-query rix,
-    /usr/bin/torbrowser Px,
+    /usr/bin/torbrowser Ux,
     /usr/bin/qubesdb-cmd rix,
 
 
