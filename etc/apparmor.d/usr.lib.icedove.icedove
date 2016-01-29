@@ -207,4 +207,7 @@
     /usr/bin/zenity rix,
     /usr/lib/qubes/qfile-agent rix,
     /usr/share/zenity/** r,
+    @{HOME}/.config/qvm-mru-filecopy mrwk,
+    @{HOME}/.local/share/gvfs-metadata r,
+    @{HOME}/.local/share/gvfs-metadata/** r,
 }
