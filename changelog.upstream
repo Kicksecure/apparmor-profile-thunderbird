@@ -1,3 +1,44 @@
+commit 3b1fa4aaf21bf66ada4d70627274b6bec083c6ff
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Jan 29 22:10:37 2016 +0100
+
+    Qubes specific fixes
+        @{HOME}/.config/qvm-mru-filecopy mrwk,
+        @{HOME}/.local/share/gvfs-metadata r,
+        @{HOME}/.local/share/gvfs-metadata/** r,
+
+commit e673fa7919ce4152049c8776546f389271782440
+Merge: c647741 2ed73c4
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Dec 10 17:29:07 2015 +0000
+
+    Merge remote-tracking branch 'troubadoour/master'
+
+commit 2ed73c484ffaadd4e82a760e657bfefc8a637336
+Author: troubadoour <trobador@riseup.net>
+Date:   Thu Dec 10 17:11:49 2015 +0000
+
+    run /usr/bin/torbrowser unconfined after usr.bin.torbrowser profile was deprecated
+
+commit c6477415e5dbc4d017d5d2e88447d4407c33fcd2
+Merge: 923a06c 9ff1964
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Dec 5 13:32:18 2015 +0000
+
+    Merge remote-tracking branch 'troubadoour/master'
+
+commit 9ff1964edc96feac948bad6e65a36b8b8eaa4d1c
+Author: troubadoour <trobador@riseup.net>
+Date:   Fri Dec 4 21:55:43 2015 +0000
+
+    fix some denied messages due to installation of iceowl-extension in latest icedove
+
+commit 923a06c15da335e513c2d44dee42571457e02054
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Nov 13 15:50:37 2015 +0000
+
+    bumped changelog version
+
 commit 9cef91ab25a7da4fb04016cdf1cfbc00ba9dcbf5
 Merge: d05e785 a2859e5
 Author: Patrick Schleizer <adrelanos@riseup.net>
