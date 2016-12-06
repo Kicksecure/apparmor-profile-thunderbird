@@ -185,7 +185,7 @@
     /usr/lib/qubes-gpg-split/pipe-cat rix,
     /dev/xen/evtchn rw,
     /dev/xen/xenbus rw,
-    @{PROC}/xen/privcmd rw,
+    /dev/xen/privcmd rw,
     ## qubes-thunderbird
     /etc/python*/sitecustomize.py r,
     /usr/bin/qvm-open-in-dvm rix,
