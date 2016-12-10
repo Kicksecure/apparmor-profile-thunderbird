@@ -1,3 +1,4 @@
+
 commit 3b1fa4aaf21bf66ada4d70627274b6bec083c6ff
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Fri Jan 29 22:10:37 2016 +0100
@@ -171,7 +172,7 @@ Author: Robin Schneider <ypid@riseup.net>
 Date:   Tue Sep 8 11:38:47 2015 +0200
 
     Reviewed and adopted for "normal" Debian Jessie installation.
-    
+
     * Untested on Qubes OS.
 
 commit 7a62b46ab8a57f3da420b15e218926fbc43cf3f8
@@ -577,7 +578,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Wed Jun 4 18:46:02 2014 +0000
 
     Merge remote-tracking branch 'troubadoour/master'
-    
+
     Conflicts:
     	etc/apparmor.d/usr.lib.icedove.icedove
 
@@ -628,7 +629,7 @@ Date:   Fri May 30 22:28:21 2014 +0000
     @{HOME}/.local/share/applications/* rwk,
     @{HOME}/.local/share/mime/ rwk,
     @{HOME}/.local/share/mime/** rwk,
-    
+
     Added
     /etc/pkcs11/modules/ r,
 
@@ -673,14 +674,14 @@ Author: troubadoour <trobador@riseup.net>
 Date:   Thu May 8 21:24:42 2014 +0000
 
     Squashed commit of the following:
-    
+
     commit 96a349a6e7b04d4e6a238ed303b476532b419c92
     Author: troubadoour <trobador@riseup.net>
     Date:   Thu May 8 21:22:28 2014 +0000
-    
+
         etc/apparmor.d/home.user.tor-browser_en-US.Browser.firefox
         etc/apparmor.d/local/home.user.tor-browser_en-US.Browser.firefox
-    
+
     etc/apparmor.d/home.user.tor-browser_en-US.Browser.firefox
     etc/apparmor.d/local/home.user.tor-browser_en-US.Browser.firefox
 
