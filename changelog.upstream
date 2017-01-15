@@ -1,3 +1,15 @@
+commit 58a80634fab1cd2ae9be263ddf656787ab628165
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Jan 15 08:35:28 2017 +0100
+
+    packaging, bumped Standards-Version from 3.9.6 to 3.9.8 for jessie support
+
+commit 79a04bcc2033de5a261b11477bee27e8085381d8
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Dec 10 00:19:11 2016 +0000
+
+    bumped changelog version
+
 commit 4502052409278eafa28a096fb2400f1d7fe5fe8d
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Sat Dec 10 00:16:58 2016 +0000
@@ -121,7 +133,7 @@ commit f0efed06208be37926c0387bace9a4016a546414
 Author: troubadoour <trobador@riseup.net>
 Date:   Sat Sep 19 15:40:14 2015 +0000
 
-    move 	/run/resolvconf/resolv.conf r,
+    move    /run/resolvconf/resolv.conf r,
 
 commit 7f8b58b4dd97c95ce4c15efe05f829805f8f95ca
 Author: troubadoour <trobador@riseup.net>
@@ -274,7 +286,7 @@ commit b4b5d10a1f9cf987ae5308cc580266c8959cdef2
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Sun Jun 28 21:34:07 2015 +0000
 
-    	/usr/share/xul-ext/torbirdy/** r,
+            /usr/share/xul-ext/torbirdy/** r,
 
 commit 12ef0850e0aa8ca3d2d3ef76e357e69976630ba0
 Merge: 68a92bb 91263dc
@@ -619,7 +631,7 @@ Date:   Wed Jun 4 18:46:02 2014 +0000
     Merge remote-tracking branch 'troubadoour/master'
     
     Conflicts:
-    	etc/apparmor.d/usr.lib.icedove.icedove
+            etc/apparmor.d/usr.lib.icedove.icedove
 
 commit 800a8c35ffa9c179b905eb4ab9bd69341fecaefc
 Author: troubadoour <trobador@riseup.net>
