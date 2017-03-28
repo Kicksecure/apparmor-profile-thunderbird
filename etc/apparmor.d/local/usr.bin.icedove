@@ -22,6 +22,8 @@
     ## qubes-thunderbird
     /etc/python*/sitecustomize.py r,
     /usr/bin/qvm-open-in-dvm rix,
+    ## Internally used by /usr/bin/qvm-open-in-dvm.
+    /usr/bin/qvm-open-in-vm rix,
     /usr/bin/qvm-mru-entry rix,
     /usr/lib/qubes/qopen-in-vm rix,
     /usr/lib/qubes/qvm-copy-to-vm rix,
