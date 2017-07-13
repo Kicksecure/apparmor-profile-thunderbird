@@ -1,3 +1,55 @@
+commit 6a051dc6512f8fe7daa9b5d62ec1a158ff01920b
+Merge: b00a3d3 dc53a40
+Author: name <email@address.com>
+Date:   Sat Apr 29 11:45:32 2017 +0200
+
+    Merge remote-tracking branch 'origin/master'
+
+commit dc53a401cb652ce0631bb86abd2a55c439afc4d4
+Merge: b00a3d3 5ffb372
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Apr 29 11:44:47 2017 +0200
+
+    Merge pull request #3 from JeremyRand/rename-icedove-thunderbird
+    
+    Rename icedove to thunderbird
+
+commit 5ffb372d678f6689108f8401afd8b747dc1b09e9
+Author: JeremyRand <biolizard89@gmail.com>
+Date:   Sat Apr 29 03:49:20 2017 +0000
+
+    Rename Icedove to Thunderbird in comment.
+
+commit 6422af3146651774458cd785ee103c5b63bb2196
+Author: JeremyRand <biolizard89@gmail.com>
+Date:   Sat Apr 29 03:47:46 2017 +0000
+
+    Fix for Debian renaming Icedove to Thunderbird.
+
+commit b00a3d387fae958f91833044b02a837f8d56b2bf
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Mar 28 21:06:45 2017 +0000
+
+    /usr/bin/qvm-open-in-vm rix,
+    
+    Internally used by /usr/bin/qvm-open-in-dvm.
+
+commit a5df4a2c5a9a8db8db2a895979905c700347eae2
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Mar 10 18:29:12 2017 +0000
+
+    port to Debian stretch
+    
+    which comes with its own icedove apparmor profile
+    
+    therefore use that and only extend it with permissions required for Whonix/Qubes
+
+commit 88de8ca9ab4a915761bf3205c6c116e0a3020572
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Feb 17 13:47:31 2017 +0000
+
+    bumped changelog version
+
 commit b7dd1d2f08293611b6f5d1bfc350b46af5f340a2
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Fri Feb 10 15:47:49 2017 +0000
