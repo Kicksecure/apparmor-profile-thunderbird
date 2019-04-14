@@ -1,3 +1,6 @@
+## Copyright (C) 2014 - 2019 ENCRYPTED SUPPORT LP <adrelanos@riseup.net>
+## See the file COPYING for copying conditions.
+
 # Site-specific additions and overrides for usr.bin.thunderbird.
 # For more details, please see /etc/apparmor.d/local/README.
 
