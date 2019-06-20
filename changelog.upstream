@@ -1,3 +1,21 @@
+commit 483643b977afd9483e4c697906a413b142d228eb
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Jun 20 07:47:24 2019 -0400
+
+    UsrMerge support
+
+commit c5115d0b6f422cb5d0bc0e171d8c52a339543561
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Jun 20 07:46:52 2019 -0400
+
+    refactoring
+
+commit 0a05d6c31b17d7308bf945ce966de32bd05afde5
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Jun 8 10:15:25 2019 +0000
+
+    bumped changelog version
+
 commit 7b0402d15092f625c6b1ef132cb53f2add858ba6
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Sat Jun 8 00:05:30 2019 -0400
