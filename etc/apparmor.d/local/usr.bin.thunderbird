@@ -14,6 +14,9 @@
     /bin/cat rix,
 
     ## Qubes specific.
+    /usr/bin/cat rix,
+
+    ## Qubes specific.
     ## qubes-gpg-split
     /usr/bin/qubes-gpg-client rix,
     /usr/bin/qubes-gpg-client-wrapper rix,
