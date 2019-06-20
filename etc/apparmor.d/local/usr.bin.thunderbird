@@ -11,10 +11,12 @@
     /dev/tty rw,
 
     ## Qubes specific.
+    /bin/cat rix,
+
+    ## Qubes specific.
     ## qubes-gpg-split
     /usr/bin/qubes-gpg-client rix,
     /usr/bin/qubes-gpg-client-wrapper rix,
-    /bin/cat rix,
     /usr/bin/qrexec-client-vm rix,
     /rw/config/gpg-split-domain r,
     /dev/xen/gntalloc rw,
