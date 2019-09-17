@@ -1,3 +1,15 @@
+commit 6e0f0ff9b9382eef98e457b60b18d55921c06bc6
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Sep 17 07:23:49 2019 +0000
+
+    fix, also run original dh_install from override_dh_install
+
+commit 2ff3b7cb47d31270936f1879e647ad39c79b5708
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Aug 1 11:25:46 2019 +0000
+
+    bumped changelog version
+
 commit a9a842da4b755741c59810d37f7d28dffa8adf5b
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Thu Aug 1 11:13:34 2019 +0000
