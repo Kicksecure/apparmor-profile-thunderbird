@@ -8,11 +8,14 @@
 %:
 	dh $@
 
-APPARMOR_PROFILE_NAME=$(shell basename $$(echo ./etc/apparmor.d/*.*))
-
-override_dh_install:
-	dh_apparmor --profile-name=$(APPARMOR_PROFILE_NAME) -p$(shell dh_listpackages)
-	dh_install
+## Currently we do not ship etc/apparmor.d/usr.bin.thunderbird but only
+## /etc/apparmor.d/local/usr.bin.thunderbird therefore the following is not
+## needed.
+# APPARMOR_PROFILE_NAME=$(shell basename $$(echo ./etc/apparmor.d/*.*))
+#
+# override_dh_install:
+# 	dh_apparmor --profile-name=$(APPARMOR_PROFILE_NAME) -p$(shell dh_listpackages)
+# 	dh_install
 
 override_dh_installchangelogs:
 	dh_installchangelogs changelog.upstream upstream
