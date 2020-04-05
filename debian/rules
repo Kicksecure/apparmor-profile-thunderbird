@@ -8,7 +8,7 @@
 %:
 	dh $@
 
-APPARMOR_PROFILE_NAME=$(shell basename $$(echo ./debian/$(shell dh_listpackages)/etc/apparmor.d/*.*))
+APPARMOR_PROFILE_NAME=$(shell basename $$(echo ./etc/apparmor.d/*.*))
 
 override_dh_install:
 	dh_apparmor --profile-name=$(APPARMOR_PROFILE_NAME) -p$(shell dh_listpackages)
