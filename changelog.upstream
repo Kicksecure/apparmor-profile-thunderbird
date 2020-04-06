@@ -1,3 +1,35 @@
+commit c82dc08a87316ade0c28a63e0949e8395887e000
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Apr 6 14:10:48 2020 -0400
+
+    readme
+
+commit fe3c48572d550e31da3c4244665d1c1f03e6883f
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Apr 6 14:07:12 2020 -0400
+
+    renamed:    debian/apparmor-profile-icedove.install -> debian/apparmor-profile-thunderbird.install
+    renamed:    debian/apparmor-profile-icedove.maintscript -> debian/apparmor-profile-thunderbird.maintscript
+
+commit c02a2f6638170842f66a5b1fb0e23047c1c307b3
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Apr 6 14:03:41 2020 -0400
+
+    Replaces: apparmor-profile-icedove;
+    description
+
+commit 2d9b65eeecfa2248ed541bcd2baff3c96e221127
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Apr 6 14:02:45 2020 -0400
+
+    rename package
+
+commit 08ce3549e3fd1d5766a1192812f8037dc4cc4e52
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Apr 5 13:25:31 2020 -0400
+
+    bumped changelog version
+
 commit ee695c22f3b902f26f427a7a65c047952ad31493
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Sun Apr 5 13:18:10 2020 -0400
