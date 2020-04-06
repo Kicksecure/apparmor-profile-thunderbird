@@ -3,7 +3,7 @@
 An AppArmor profile to confine Icedove (Thunderbird for Debian) with Enigmail.
 This profile is developed by the Whonix team. Thunderbird is developed by
 mozilla.org.
-## How to install `apparmor-profile-icedove` using apt-get ##
+## How to install `apparmor-profile-thunderbird` using apt-get ##
 
 1\. Download [Whonix's Signing Key]().
 
@@ -31,10 +31,10 @@ echo "deb https://deb.whonix.org buster main contrib non-free" | sudo tee /etc/a
 sudo apt-get update
 ```
 
-5\. Install `apparmor-profile-icedove`.
+5\. Install `apparmor-profile-thunderbird`.
 
 ```
-sudo apt-get install apparmor-profile-icedove
+sudo apt-get install apparmor-profile-thunderbird
 ```
 
 ## How to Build deb Package from Source Code ##
@@ -45,7 +45,7 @@ Can be build using standard Debian package build tools such as:
 dpkg-buildpackage -b
 ```
 
-See [instructions](https://www.whonix.org/wiki/Dev/Build_Documentation/apparmor-profile-icedove). (Replace `package-name` with the actual name of this package.)
+See [instructions](https://www.whonix.org/wiki/Dev/Build_Documentation/apparmor-profile-thunderbird). (Replace `package-name` with the actual name of this package.)
 
 ## Contact ##
 
@@ -54,4 +54,4 @@ See [instructions](https://www.whonix.org/wiki/Dev/Build_Documentation/apparmor-
 
 ## Donate ##
 
-`apparmor-profile-icedove` requires [donations](https://www.whonix.org/wiki/Donate) to stay alive!
+`apparmor-profile-thunderbird` requires [donations](https://www.whonix.org/wiki/Donate) to stay alive!

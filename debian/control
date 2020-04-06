@@ -1,17 +1,17 @@
 ## Copyright (C) 2012 - 2020 ENCRYPTED SUPPORT LP <adrelanos@riseup.net>
 ## See the file COPYING for copying conditions.
 
-Source: apparmor-profile-icedove
+Source: apparmor-profile-thunderbird
 Section: misc
 Priority: optional
 Maintainer: Patrick Schleizer <adrelanos@riseup.net>
 Build-Depends: debhelper (>= 12), dh-apparmor
 Homepage: https://www.whonix.org/wiki/AppArmor
-Vcs-Browser: https://github.com/Whonix/apparmor-profile-icedove
-Vcs-Git: https://github.com/Whonix/apparmor-profile-icedove.git
+Vcs-Browser: https://github.com/Whonix/apparmor-profile-thunderbird
+Vcs-Git: https://github.com/Whonix/apparmor-profile-thunderbird.git
 Standards-Version: 4.3.0
 
-Package: apparmor-profile-icedove
+Package: apparmor-profile-thunderbird
 Architecture: all
 Depends: ${misc:Depends}, apparmor
 Description: AppArmor profile for Icedove (Thunderbird for Debian) with Enigmail
