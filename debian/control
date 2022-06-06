@@ -18,6 +18,12 @@ Depends: ${misc:Depends}, apparmor
 Replaces: apparmor-profile-icedove
 Description: AppArmor profile for Thunderbird for Debian
  An AppArmor profile to confine Thunderbird.
- This profile is just an extention to the upstream debian profile, So upstream profile is the foundation.
- This profile is developed by the Whonix team. Thunderbird is developed by
- mozilla.org.
+ .
+ This profile is just an extension of the upstream AppArmor Debian profile.
+ The upstream AppArmor upstream profile is the foundation.
+ .
+ Primarily this AppArmor profile makes Debian's AppArmor profile for
+ Thunderbird compatible with Qubes Debian based VMs.
+ .
+ This profile is developed by the Kicksecure team.
+ Thunderbird is developed by mozilla.org.
