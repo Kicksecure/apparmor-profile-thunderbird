@@ -16,7 +16,8 @@ Package: apparmor-profile-thunderbird
 Architecture: all
 Depends: ${misc:Depends}, apparmor
 Replaces: apparmor-profile-icedove
-Description: AppArmor profile for Thunderbird for Debian with Enigmail
- An AppArmor profile to confine Thunderbird with Enigmail.
+Description: AppArmor profile for Thunderbird for Debian
+ An AppArmor profile to confine Thunderbird.
+ This profile is just an extention to the upstream debian profile, So upstream profile is the foundation.
  This profile is developed by the Whonix team. Thunderbird is developed by
  mozilla.org.
