@@ -1,6 +1,6 @@
-# AppArmor profile for Thunderbird for Debian with Enigmail #
+# AppArmor profile for Thunderbird for Debian #
 
-An AppArmor profile to confine Thunderbird with Enigmail.
+An AppArmor profile to confine Thunderbird.
 This profile is developed by the Whonix team. Thunderbird is developed by
 mozilla.org.
 
@@ -29,13 +29,13 @@ echo "deb [signed-by=/usr/share/keyrings/derivative.asc] https://deb.kicksecure.
 4\. Update your package lists.
 
 ```
-sudo apt-get update
+sudo apt update
 ```
 
 5\. Install `apparmor-profile-thunderbird`.
 
 ```
-sudo apt-get install apparmor-profile-thunderbird
+sudo apt install apparmor-profile-thunderbird
 ```
 
 ## How to Build deb Package from Source Code ##
