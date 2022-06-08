@@ -1,3 +1,56 @@
+commit d19ea3c73fa8a76f6d151fee6fa018a0c618bc3a
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Mon Jun 6 14:43:49 2022 -0400
+
+    description
+
+commit 07034597cdb4db7ba93c2b38e6842275b6de48db
+Merge: 78953ba ff65551
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Mon Jun 6 14:39:26 2022 -0400
+
+    Merge remote-tracking branch 'github-kicksecure/master'
+
+commit ff6555190f8e95c87d09c16acb29d906cc6fba41
+Merge: d934a03 e43d93c
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Mon Jun 6 11:51:41 2022 -0400
+
+    Merge pull request #4 from TNTBOMBOM/patch-1
+    
+    Update control
+
+commit d934a030fbc5c145d47f1c775fe3d82c666ffbc1
+Merge: 78953ba e994d20
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Mon Jun 6 11:51:20 2022 -0400
+
+    Merge pull request #5 from TNTBOMBOM/patch-2
+    
+    Update README.md
+
+commit e994d209b83015908bb7e1b9d346dfbcfde0c06b
+Author: TNT BOM BOM <TNTBOMBOM@users.noreply.github.com>
+Date:   Mon Jun 6 08:52:29 2022 +0000
+
+    Update README.md
+    
+    Cleared enigmail, replaced apt-get with apt
+
+commit e43d93cff09367a4d121618ea97526c74dac53ff
+Author: TNT BOM BOM <TNTBOMBOM@users.noreply.github.com>
+Date:   Mon Jun 6 08:49:31 2022 +0000
+
+    Update control
+    
+    Cleaned enigmail, Added more clarification.
+
+commit 78953ba1256e9667189c54145d3fccc2bc770378
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed May 25 06:05:40 2022 -0400
+
+    bumped changelog version
+
 commit 301ef068b3f7b3beabbba27931ab60c8798d91f4
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Fri May 20 15:27:03 2022 -0400
