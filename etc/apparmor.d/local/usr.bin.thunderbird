@@ -27,7 +27,7 @@
     /dev/xen/evtchn rw,
     /dev/xen/xenbus rw,
     /dev/xen/privcmd rw,
-    ## qubes-thunderbird
+    ## thunderbird-qubes
     /etc/python*/sitecustomize.py r,
     /usr/bin/qvm-open-in-dvm rix,
     ## Internally used by /usr/bin/qvm-open-in-dvm.
