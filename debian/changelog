@@ -1,3 +1,9 @@
+apparmor-profile-thunderbird (3:6.1-1) unstable; urgency=medium
+
+  * New upstream version (local package).
+
+ -- Patrick Schleizer <adrelanos@whonix.org>  Fri, 19 Sep 2025 16:08:51 +0000
+
 apparmor-profile-thunderbird (3:6.0-1) unstable; urgency=medium
 
   * New upstream version (local package).
